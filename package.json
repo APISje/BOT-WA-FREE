@@ -1,0 +1,17 @@
+{
+  "name": "@workspace/wa-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot Vireon Interactive",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.0.0"
+  }
+}
